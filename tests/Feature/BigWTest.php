@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use ProductTrap\BigWAustralia\BigWAustralia;
 use ProductTrap\Contracts\Factory;
 use ProductTrap\DTOs\Product;
 use ProductTrap\Enums\Status;
@@ -9,7 +10,6 @@ use ProductTrap\Exceptions\ApiConnectionFailedException;
 use ProductTrap\Facades\ProductTrap as FacadesProductTrap;
 use ProductTrap\ProductTrap;
 use ProductTrap\Spider;
-use ProductTrap\BigWAustralia\BigWAustralia;
 
 function getMockBigWAustralia($app, string $response): void
 {

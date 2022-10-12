@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace ProductTrap\BigWAustralia\Tests;
 
-use ProductTrap\ProductTrapServiceProvider;
 use ProductTrap\BigWAustralia\BigWAustraliaServiceProvider;
+use ProductTrap\ProductTrapServiceProvider;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
