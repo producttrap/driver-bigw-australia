@@ -60,9 +60,9 @@ it('can call `find` on the BigWAustralia driver and handle a successful response
         ->price->amount->toBe(41.0)
         ->brand->name->toBe('Pedigree')
         ->images->toBe([
-            '/medias/sys_master/images/images/h67/h6d/31510149922846.jpg',
-            '/medias/sys_master/images/images/h52/he9/31510150447134.jpg',
-            '/medias/sys_master/images/images/h5b/h76/31510150971422.jpg',
-            '/medias/sys_master/images/images/hfb/h08/31510151561246.jpg',
+            'https://www.bigw.com.au/medias/sys_master/images/images/h67/h6d/31510149922846.jpg',
+            'https://www.bigw.com.au/medias/sys_master/images/images/h52/he9/31510150447134.jpg',
+            'https://www.bigw.com.au/medias/sys_master/images/images/h5b/h76/31510150971422.jpg',
+            'https://www.bigw.com.au/medias/sys_master/images/images/hfb/h08/31510151561246.jpg',
         ]);
 });

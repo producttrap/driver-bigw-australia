@@ -108,7 +108,7 @@ class BigWAustralia implements Driver
         // Images
         $images = [];
         foreach ($product['assets']['images'] as $image) {
-            $images[] = $image['sources'][0]['url'];
+            $images[] = static::BASE_URI . $image['sources'][0]['url'];
         }
 
         // Status
